@@ -1,0 +1,31 @@
+Rice University hereby grants you a non-exclusive, non-transferable license to use the data for commercial, educational, and/or research purposes only. You agree to not redistribute the data without written permission from Rice University.
+
+You agree to acknowledge the source of the data in any publication or product reporting on your use of it.
+
+We provide no warranty whatsoever on any aspect of the data, including but not limited to its correctness, completeness, and fitness. Use at your own risk.
+
+You agree to acknowledge Xu Du, and Ashutosh Sabharwal, "IEEE Transactions on Vehicular Technology," in IEEE Transactions on Vehicular Technology in any publication or product reporting on your use of the data. If the data is not part of the IEEE Transactions on Vehicular Technology reference data, you also agree to acknowledge the additional source of the data, if applicable.
+
+NOTE: Downloading, obtaining, and/or using the data in any means constitutes your agreement with these terms.
+
+BibTeX entry:
+
+@ARTICLE{9629284,
+  author={Du, Xu and Sabharwal, Ashutosh},
+  journal={IEEE Transactions on Vehicular Technology},
+  title={Massive MIMO Channels with Inter-User Angle Correlation: Open-Access Dataset, Analysis and Measurement-Based Validation},
+  year={2021},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TVT.2021.3131606}}
+
+@ARTICLE{8368089,
+  author={Zhang, Xing and Zhong, Lin and Sabharwal, Ashutosh},
+  journal={IEEE Transactions on Wireless Communications},
+  title={Directional Training for FDD Massive MIMO},
+  year={2018},
+  volume={17},
+  number={8},
+  pages={5183-5197},
+  doi={10.1109/TWC.2018.2838600}}

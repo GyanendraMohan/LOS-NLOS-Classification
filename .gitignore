@@ -1,0 +1,156 @@
+# ============================================================
+# .gitignore — Mrudula WiFi Sensing Research Project
+# ============================================================
+
+
+# ─── Datasets & Raw Data ─────────────────────────────────────
+# Large dataset archives
+*.zip
+*.tar
+*.tar.gz
+*.tar.bz2
+*.7z
+*.rar
+
+# Raw data directories
+tvt_open_source/raw_traces/
+tvt_open_source/channel_data/
+tvt_open_source/data/
+preprocessing_v2/output_raw_full/
+additional_datasets/data/
+
+# Common dataset file formats
+*.csv
+*.tsv
+*.json
+*.jsonl
+*.parquet
+*.h5
+*.hdf5
+*.mat
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.dat
+*.bin
+*.raw
+
+
+# ─── Model Outputs & Results ─────────────────────────────────
+# Trained model weights
+*.pt
+*.pth
+*.onnx
+*.pb
+*.h5
+*.keras
+*.model
+*.weights
+
+# Result/output directories
+preprocessing_v2/CNN_LSTM/results/
+preprocessing_v2/CNN_LSTM/results_v1_full_resolution/
+preprocessing_v2/RF/results/
+preprocessing_v2/SVM/results/
+tvt_open_source/plots/
+tvt_open_source/paper_figures/
+
+
+# ─── Jupyter Notebooks ───────────────────────────────────────
+# Strip notebook output (keep the .ipynb files, ignore checkpoints)
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Optional: uncomment to also ignore all notebook output cells
+# *.ipynb
+
+
+# ─── Python ──────────────────────────────────────────────────
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.log
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+
+# ─── PDFs & Large Documents ──────────────────────────────────
+# Uncomment if you don't want to push paper PDFs
+# *.pdf
+
+
+# ─── macOS System Files ──────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+Icon?
+
+
+# ─── Editors & IDEs ──────────────────────────────────────────
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains (PyCharm, DataSpell)
+.idea/
+*.iml
+
+# Vim / Emacs
+*.swp
+*.swo
+*~
+\#*\#
+
+
+# ─── Environment & Secrets ───────────────────────────────────
+.env
+.env.*
+*.secret
+secrets.yaml
+secrets.json
+config/local.py
+
+
+# ─── Miscellaneous ───────────────────────────────────────────
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+
+# OS thumbnails
+Thumbs.db
+ehthumbs.db
